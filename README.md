@@ -5,6 +5,10 @@ You can find the tutorial for this on my blog at:
 
 https://monograff76.wordpress.com/
 
+You can also find a demo video on my Youtube channel - note that it is for a different project, but generally represents what the tutorial presents:
+
+https://youtu.be/FJWRFN8xHFY
+
 The code is broken up into three sections, corresponding to the three series of articles on my blog:  Creating draggable icons, creating draggable nodes, and creating linkable nodes.
 
 The last one (linkable nodes) contains the complete source.  However, the source code for the other two is substantially different because refactoring took place throughout the project to accommodate the growing complexity of the added features.
