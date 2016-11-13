@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<fx:root fx:id="root_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="96.0" prefWidth="80.0" stylesheets="@application.css" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+	<Pane prefHeight="200.0" prefWidth="200.0">
+	   <children>
+	      <Group>
+	         <children>
+	            <Line fx:id="mLt_c2_end" endX="100.0" fill="#eb5656" startX="-100.0" stroke="#d03333" />
+	            <Line fx:id="mLt_start_c1" endX="100.0" fill="#296ec9" startX="-100.0" stroke="#2967c3" />
+	            <CubicCurve fx:id="mCurve" controlX1="-50.0" controlX2="50.0" controlY1="-100.0" controlY2="100.0" endX="150.0" fill="#1f93ff00" startX="-150.0" stroke="BLACK" />
+	            <Circle fx:id="curveStart" fill="#b5d1eb" onMouseDragged="#updateCurveStart" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+	            <Circle fx:id="curveC2" fill="#ff2121" onMouseDragged="#updateCurveC2" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+	            <Circle fx:id="curveEnd" fill="#f29f9f" onMouseDragged="#updateCurveEnd" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+	            <Circle fx:id="curveC1" fill="#2197ff" onMouseDragged="#updateCurveC1" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+	         </children>
+	      </Group>
+	      <Group layoutX="80.0" layoutY="130.0" />
+	   </children>
+	</Pane>
+</fx:root>

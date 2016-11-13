@@ -1,0 +1,31 @@
+.dragicon {
+	-fx-background-radius: 10; 
+}
+
+.icon-blue {
+	-fx-background-color: blue;
+}
+
+.icon-red {
+	-fx-background-color: red;
+}
+
+.icon-green {
+	-fx-background-color: green;
+}
+
+.icon-black {
+	-fx-background-color: black;
+}
+
+.icon-grey {
+	-fx-background-color: grey;
+}
+
+.icon-yellow {
+	-fx-background-color: yellow;
+}
+
+.icon-purple {
+	-fx-background-color: purple;
+}

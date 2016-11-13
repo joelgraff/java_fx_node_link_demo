@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.Pane?>
+
+<fx:root stylesheets="@application.css" type="Pane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <CubicCurve fx:id="node_link" controlX2="50.0" controlY1="10.0" controlY2="10.0" endX="10.0" fill="#1f93ff00" stroke="BLACK" />
+   </children>
+</fx:root>
