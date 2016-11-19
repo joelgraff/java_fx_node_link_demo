@@ -21,6 +21,7 @@ import javafx.scene.input.Dragboard;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.input.TransferMode;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.shape.Circle;
 
 public class DraggableNode extends AnchorPane {
 		
@@ -96,6 +97,10 @@ public class DraggableNode extends AnchorPane {
 				}
 				
 			});
+			
+			Circle c =new Circle();
+			c.setRadius(5.0f);
+			this.getChildren().add(c);
 
 		}
 
